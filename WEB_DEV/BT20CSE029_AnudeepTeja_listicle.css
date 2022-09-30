@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("images/listicle_background.jpg");
+}
+.background-VNIT{
+    background-image: url("images/vnit1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat ;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 150px;
+}
+.instructor img{
+    width:100px;
+    height:100px;
+    margin-top:400px;
+    margin-left:46%;
+    border-radius:50%;
+}
+.title h1
+{
+    font-family: 'Roboto Slab', serif;
+    font-size: 36px;
+    font-weight: normal;
+    color:#fff;
+    padding-top: 20px;
+    text-align: center;
+}
+.instructor .theinstru {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left:47%;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.instructor .updated {
+    font-style: italic;
+    padding-left:47%;
+    color: rgb(51 , 51 , 51);
+    line-height: 24px;
+    text-underline-offset: 10px;
+    text-decoration: underline;
+    text-decoration-color: #e6e6e6;
+}
+.lab1 , .lab2 , .lab3{
+    display:flex;
+    justify-content: center;
+}
+.lab1item , .lab2item , .lab3item{
+    font-family: 'Roboto Slab', serif;
+    max-width: 66.67%;
+    margin: 10px;
+}
+.sl_no{
+    
+    min-height: 200px;
+    font-size: 36px;
+    margin-right: 20px;
+    color: rgb(0 , 0 , 0 , 0.25);
+    background: rgb(255 , 255 , 255, 0.0);
+}
+.CSE , .chem , .phy{
+    width: 100%;
+    font-size: 18px;
+    min-height: 200px;
+    margin-left: 20px;
+    background: rgb(255 , 255 , 255 , 0.0);  
+}
+.heading1 , .heading2 , .heading3{
+    font-size: 36px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    color:rgb(51 , 51 , 51);
+}
+.links1 , .links2 , .links3{
+    margin:0;
+    padding-top:0px;
+    padding-bottom: 10px;
+}
+.links1 a , .links2 a , .links3 a{
+    text-decoration:none;
+    color: #42b4d6;
+}
+.links1 a:hover , .links2 a:hover , .links3 a:hover{
+    text-decoration:underline;
+}
+.description1 , .description2 , .description3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;;
+}
+.description1 p , .description2 p , .description3 p{
+    line-height: 32px;
+}
+.precautions p{
+    line-height:32px;
+    padding-bottom: 20px;
+}
+.lab1item img , .lab2item img , .lab3item img{
+    width: 100%;
+    height: 600px;
+    margin-bottom:120px;
+}
